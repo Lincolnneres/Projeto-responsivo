@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400px;
+  color: #5d5d7d;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.contanier-left {
+  display: inline-block;
+  width: 60%;
+  margin-top: 15%;
+  padding: 136px;
+}
+
+.contanier-right {
+  display: inline-block;
+  background-color: rgba(93, 93, 93, 0.16);
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+}
+
+img {
+  position: relative;
+  top: 25%;
+  right: 130px;
+}
+
+h1 {
+  width: 368px;
+  height: 160px;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+P {
+  width: 540px;
+  height: 144px;
+  font-size: 28px;
+  line-height: 48px;
+  opacity: 0.6;
+  margin: 15px 0;
+}
+
+button {
+  width: 135px;
+  height: 12px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  width: 269px;
+  height: 62px;
+  background-color: #9499ea;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+a {
+  width: 59px;
+  height: 41px;
+  font-size: 28px;
+  line-height: 41px;
+  margin-right: 41px;
+  cursor: pointer;
+}
+
+a:nth-child(2) {
+  opacity: 0.4;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+a:active {
+  opacity: 0.8;
+}
+
+header {
+  margin: 24px 0 0 57px;
+}
